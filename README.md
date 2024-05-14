@@ -1,6 +1,3 @@
+1. I would fit the automated tests in my Recipe project development pipeline within a GitHub action that runs whenever code is pushed. Running tests only locally or after all development is completed could lead to integration issues, delayed detection of bugs, and inconsistencies between different developers' environments. Therefore, integrating automated tests within GitHub actions provides a more robust and efficient workflow.
 
-
-
-
-
-
+2. No. End-to-end (E2E) tests are designed to test the entire application workflow from start to finish, simulating real user scenarios. They are generally used to ensure that various components of the application work together as expected.
